@@ -38,6 +38,7 @@ for i = 1: length(file_list) % 파일 개수 확인
     imshow(colored_labels);
 end
 
-
 fclose(fid);
 
+% I tried to make code for circles detection but, this code just detected other areas except points
+% where I would like to see. So, I'm just going to keep changing this one to do more clear.
